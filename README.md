@@ -1,9 +1,9 @@
 # queso
-Queso is a suite of scripts inspired by real world interactive scripts I have developed for work.
+Queso is a suite of shell scripts inspired by real world interactive scripts I have developed for work.
 
-When working at ACME, Support Engineers were instructed that account changes to a user's ACME account using the company's proprietary Achilles's tool and their bullt in plugin bow.
+When working at ACME, Support Engineers were instructed that account changes to a user's ACME account email address must be made using the company's proprietary internal `Achilles` tool and one of it's plugins, `bow`.
 
-This involved going to several different company pages, installing a script for Achilles, running `achilles plugin -name bow` to install the required dependency plugin. once that was all done, support engineers had to run an `achilles bow --acmeid=am:bb:c96540 --emailupdate=email@address.com` every time
+This manual process involved going to several different company pages, installing a script for Achilles, running `achilles plugin -name bow` to install the required dependency plugin. once that was all done, support engineers had to run an `achilles bow --acmeid=am:bb:c96540 --emailupdate=email@address.com` every time
 
 enter Queso! With one single command, you can pull and download a setup script that will install 3 aliases into the ~/.zshrc file, mark queso.sh, queso-update.sh, and queso-uninstall.sh.
 
